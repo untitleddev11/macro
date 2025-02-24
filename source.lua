@@ -15,8 +15,8 @@ function DevicesVM:Init()
     if game.CoreGui:GetAttribute("RunningDVM") then print("retard") return end --> Check if script already running for dumbasses that execute shit multiple times then complain its bugged
     game.CoreGui:SetAttribute("RunningDVM", true)
 
-    local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/devllce/Devices-VM/refs/heads/main/dependencies/functions.lua"))()
-    local Games = game:HttpGet("https://raw.githubusercontent.com/devllce/Devices-VM/refs/heads/main/dependencies/games.json")
+    local Functions = loadstring(game:HttpGet("https://raw.githubusercontent.com/untitleddev11/macro/refs/heads/main/dependencies/functions.lua"))()
+    local Games = game:HttpGet("https://raw.githubusercontent.com/untitleddev11/macro/refs/heads/main/dependencies/games.json")
     local ImGui = loadstring(game:HttpGet('https://github.com/depthso/Roblox-ImGUI/raw/main/ImGui.lua'))()
 
     local Success, GamesData = pcall(function()
