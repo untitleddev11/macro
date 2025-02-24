@@ -44,7 +44,7 @@ function DevicesVM:Init()
     RunService.RenderStepped:Wait()
 
     if PlaceId == nil then
-        setclipboard("https://github.com/devllce/Devices-VM/blob/main/dependencies/games.json")
+        setclipboard("https://github.com/untitleddev11/macro/blob/main/dependencies/games.json")
         LocalPlayer:Kick("This game is not supported! check our github repository to see supported games. (copied to ur clipboard)")
         return
 	end
